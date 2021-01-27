@@ -1,30 +1,188 @@
 {
-  "bg":"https://cdn.pixabay.com/photo/2015/11/04/20/59/milky-way-1023340_960_720.jpg",
-
-    "title": "Titulo do quiz",
-    "description": "Descrição",
-    "questions": [
-      {
-        "image": "https://gizmodo.uol.com.br/wp-content/blogs.dir/8/files/2019/07/asteroide-terra-800x451.jpg",
-        "title": "Tituo",
-        "description": "Descição",
-        "answer": 2,
-        "alternatives": [
-          
-        ]
-      }
-     
-    ],
-    "external":[],
-    "theme": {
-      "colors": {
-        "primary": "#0d47a1",
-        "secondary": "#29b6f6",
-        "mainBg": "#171B35",
-        "contrastText": "#FFFFFF",
-        "wrong": "#FF5722",
-        "success": "#4CAF50"
-      },
-      "borderRadius": "4px"
+  "bg": "https://cdn.pixabay.com/photo/2015/11/04/20/59/milky-way-1023340_960_720.jpg",
+  "title": "Astronomia",
+  "description": "O que você sabe sobre o universo?",
+  "questions": [
+    {
+      "image": "https://static.quizur.com/i/b/5a9b2a71a49f25.130468935a9b2a6f0cb4f4.27730826.jpg",
+      "title": "O que é uma estrela cadente?",
+      "description": "Essa é fácil.",
+      "answer": 2,
+      "alternatives": [
+        "Planeta",
+        "Estrela Caindo",
+        "Meteoros",
+        "Cometas"
+      ]
+    },
+    {
+      "image": "https://static.quizur.com/i/b/5a9b27841cf017.819936575a9b2783edaa72.83434277.jpg",
+      "title": "Qual é o planete mais distante do sistema solar?",
+      "description": "São aproximadamente 4,5 bilhões de Km",
+      "answer": 0,
+      "alternatives": [
+        "Netuno",
+        "Urano",
+        "Saturno",
+        "Putão"
+      ]
+    },
+    {
+      "image": "https://static.quizur.com/i/b/5a9b280bdb3116.794914435a9b280a9a37c8.68137093.jpg",
+      "title": "Qual é o maior planeta do Sistema Solar?",
+      "description": "O mais brilhante do sistema solar",
+      "answer": 0,
+      "alternatives": [
+        "Jupter",
+        "Alpha Giant",
+        "Saturn",
+        "Planeta X"
+      ]
+    },
+    {
+      "image": "https://static.quizur.com/i/b/5a9b28f1e94858.242592065a9b28f1d4d981.29649950.jpg",
+      "title": "Qual é a maior estrela conhecida atualmente?",
+      "description": "Essa é difícil",
+      "answer": 1,
+      "alternatives": [
+        "Alpha Centauri",
+        "Uy Scuti",
+        "Vy Canis Majoris",
+        "Sol"
+      ]
+    },
+    {
+      "image": "https://static.quizur.com/i/b/5a9b2a095b4010.444176335a9b2a09475861.00873068.jpg",
+      "title": "Qual é a maior galáxia conhecida?",
+      "description": "Fica a 2,54 milhões de anos-luz de distância da Terra",
+      "answer": 1,
+      "alternatives": [
+        "Andromeda",
+        "NGC 6872",
+        "NGC 3285",
+        "NGC 2018"
+      ]
+    },
+    {
+      "image": "https://static.quizur.com/i/b/5a9b2ac380bfa7.930185115a9b2ac36c8c31.61886678.jpg",
+      "title": "Qual o nome do primeiro astronauta a pisar na lua?",
+      "description": "Muito fácil",
+      "answer": 3,
+      "alternatives": [
+        "Buzz Aldrin",
+        "Adam Smith",
+        "Neil Degresse Tyson",
+        "Neil Armstrong"
+      ]
+    },
+    {
+      "image": "https://static.quizur.com/i/b/5a9b2b615998e2.174703755a9b2b612b0fe6.91524455.jpg",
+      "title": "Qual o nome da primeira missão a pusar na lua?",
+      "description": "Foram tantas missões",
+      "answer": 2,
+      "alternatives": [
+        "Apollo 7",
+        "Apollo 1",
+        "Apollo 11",
+        "nenhuma, poque a terra é redonda"
+      ]
+    },
+    {
+      "image": "https://static.quizur.com/i/b/5a9b2c17dd9206.690980975a9b2c17c04f90.14011758.jpg",
+      "title": "Qual é o formato que melhor expressa o modelo do  planeta terra?",
+      "description": "O nosso lar",
+      "answer": 3,
+      "alternatives": [
+        "Redonda",
+        "Globo",
+        "Plana",
+        "Geoide"
+      ]
+    },
+    {
+      "image": "https://static.quizur.com/i/b/5a9b2cd074b594.105191355a9b2cd046e3c4.92754472.jpg",
+      "title": "Qual o Planeta mais quente do sistema solar?",
+      "description": "Que tal fazer um bronzeado?",
+      "answer": 3,
+      "alternatives": [
+        "Sol",
+        "Marte",
+        "Mercúrio",
+        "vênus"
+      ]
+    },
+    {
+      "image": "https://static.quizur.com/i/b/5a9b2d77559696.300473875a9b2d772bae83.14167799.jpg",
+      "title": "Quem invetou o telescópio?",
+      "description": "Um genio",
+      "answer": 2,
+      "alternatives": [
+        "Sthen King",
+        "Cornelius Smith",
+        "Hans Lippershey",
+        "Galileu Galilei"
+      ]
+    },
+    {
+      "image": "https://static.quizur.com/i/b/5a9b2f45150a10.608375775a9b2f44ef5094.81531876.jpg",
+      "title": "Quantos Planetas, atualmente, tem o sistema solar?",
+      "description": "deixa eu contar...",
+      "answer": 3,
+      "alternatives": [
+        "7",
+        "12",
+        "9",
+        "8"
+      ]
+    },
+    {
+      "image": "https://static.quizur.com/i/b/5a9b3000831095.442802705a9b3000102939.83092034.png",
+      "title": "Qual é o nome da maior lua do Sistema Solar?",
+      "description": "São tanta luas",
+      "answer": 1,
+      "alternatives": [
+        "Calisto",
+        "Ganímedes",
+        "Europa",
+        "Titã"
+      ]
+    },
+    {
+      "image": "https://static.quizur.com/i/b/5a9b309adbfd60.998120015a9b309ac6e955.55327491.png",
+      "title": "Qual é o nome do maior vulcão de Marte?",
+      "description": "São tanta luas",
+      "answer": 0,
+      "alternatives": [
+        "Monte Olimpo",
+        "Tamu Massif",
+        "Scale Massif Vulcan",
+        "Everest Marciano"
+      ]
+    },
+    {
+      "image": "https://static.quizur.com/i/b/5a9b31bc144275.311814965a9b31bc019ef5.17789675.jpg",
+      "title": "Qual é o nome do último rover enviado a marte?",
+      "description": "O sistema utilizado pelo rover é o VxWorks contemporâneo do MS-DOS 3.0",
+      "answer": 1,
+      "alternatives": [
+        " Mars Life",
+        "Curiosity",
+        "Mars Rover",
+        "Mars Exploration"
+      ]
     }
+    
+  ],
+  "external": [],
+  "theme": {
+    "colors": {
+      "primary": "#0d47a1",
+      "secondary": "#29b6f6",
+      "mainBg": "#171B35",
+      "contrastText": "#FFFFFF",
+      "wrong": "#FF5722",
+      "success": "#4CAF50"
+    },
+    "borderRadius": "4px"
   }
+}
