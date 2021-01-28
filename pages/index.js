@@ -13,7 +13,6 @@ import Input from '../src/components/Input';
 import Button from '../src/components/Button';
 import QuizContainer from '../src/components/QuizContainer';
 
-
 export default function Home() {
   const router = useRouter();
   const [name, setName] = useState('');
@@ -49,7 +48,7 @@ export default function Home() {
 
         <Widget>
           <Widget.Content>
-            <h1> O que voce sabe sobre o universo? </h1>
+            <h1> Ouiz da Galera </h1>
             <p> lourem dolor ipc .....</p>
 
           </Widget.Content>
