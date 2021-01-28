@@ -139,9 +139,7 @@ function QuestionWidget({
 
             );
           })}
-          <pre>
-            {/*{JSON.stringify(, null, 4)} */}
-          </pre>
+
           <Button type="submit" disabled={!hasAlternativeSelected}>
             Confirmar
           </Button>
@@ -173,7 +171,6 @@ export default function QuizPage() {
       ...results, result,
     ]);
   }
-  
 
   useEffect(() => {
     setTimeout(() => {
