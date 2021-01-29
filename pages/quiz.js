@@ -2,6 +2,7 @@
 /* eslint-disable react/prop-types */
 
 import React, { useEffect, useState } from 'react';
+import { useRouter } from 'next/router';
 import QuizBackground from '../src/components/QuizBackground';
 import Widget from '../src/components/Widget';
 import QuizLogo from '../src/components/QuizLogo';
@@ -11,22 +12,29 @@ import Button from '../src/components/Button';
 import AlternativesForm from '../src/components/AlternativeForm';
 
 function ResultWidget({ results }) {
+  const router = useRouter();
+  const jogador = router.query.name;
+
   return (
     <Widget>
       <Widget.Header>
-        Carregando
+
+        {`${jogador}`}
       </Widget.Header>
       <Widget.Content>
         <p>
+          {' '}
           Você acertou
           {' '}
-          {results.reduce((somatoriaAtual, resultAtual) => {
+          {/* {results.reduce((somatoriaAtual, resultAtual) => {
             const isAcerto = resultAtual === true;
             if (isAcerto) {
               return somatoriaAtual + 1;
             }
             return somatoriaAtual;
-          }, 0)}
+          }, 0)} */}
+          {}
+          {results.filter((x) => x).length}
 
         </p>
         <ul>
