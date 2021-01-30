@@ -173,7 +173,15 @@
     }
     
   ],
-  "external": [],
+  "external": [
+   "https://quiz-react.brenoha.vercel.app",
+   "https://aluraquizpokemon.cesarrobertopg.vercel.app",
+   "https://math-quiz.noriller.vercel.app",
+   "https://alura-quiz-seasons.rodlemos.vercel.app",
+   "https://scrumquiz.robsonamendonca.vercel.app",
+   "https://aluraquiz-base.silsantana.vercel.app",
+   "https://miziaraquiz-nltdru7yr.vercel.app"
+  ],
   "theme": {
     "colors": {
       "primary": "#0d47a1",

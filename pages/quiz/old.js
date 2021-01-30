@@ -3,13 +3,14 @@
 
 import React, { useEffect, useState } from 'react';
 import { useRouter } from 'next/router';
-import QuizBackground from '../src/components/QuizBackground';
-import Widget from '../src/components/Widget';
-import QuizLogo from '../src/components/QuizLogo';
-import db from '../db.json';
-import QuizContainer from '../src/components/QuizContainer';
-import Button from '../src/components/Button';
-import AlternativesForm from '../src/components/AlternativeForm';
+import QuizBackground from '../../src/components/QuizBackground';
+import Widget from '../../src/components/Widget';
+import QuizLogo from '../../src/components/QuizLogo';
+import db from '../../db.json';
+import QuizContainer from '../../src/components/QuizContainer';
+import Button from '../../src/components/Button';
+import AlternativesForm from '../../src/components/AlternativeForm';
+import BackLinkArrow from '../../src/components/BackLinkArrow';
 
 function ResultWidget({ results }) {
   const router = useRouter();
@@ -84,7 +85,7 @@ function QuestionWidget({
   return (
     <Widget>
       <Widget.Header>
-        {/*  <h1> Astronomia </h1> */}
+        <BackLinkArrow href="/" />
         <h3>
 
           {`${questionIndex + 1}ª Pergunta de ${totalQuestions}`}

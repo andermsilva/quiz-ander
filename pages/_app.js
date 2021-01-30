@@ -7,12 +7,12 @@ import { createGlobalStyle, ThemeProvider } from 'styled-components';
 import Head from 'next/head';
 import db from '../db.json';
 
-/*  const data = fetch('http://localhost:3000/api/db')
-    .then(async(respostaDoServidor) => {
-      const resposta = await respostaDoServidor.json();
-      console.log(resposta);
-    })
- */
+/* const data = fetch('http://localhost:3000/api/db')
+  .then(async (respostaDoServidor) => {
+    const resposta = await respostaDoServidor.json();
+    console.log(resposta);
+  }); */
+
 const GlobalStyle = createGlobalStyle`
 
 *{
