@@ -113,6 +113,7 @@ function QuestionWidget({
         <p>
           {question.description}
         </p>
+
         <AlternativesForm
           onSubmit={(infosDoEvento) => {
             infosDoEvento.preventDefault();
@@ -160,6 +161,7 @@ function QuestionWidget({
           {isQuestionSubmit && !isCorret && <p>Voce errou!</p>}
 
         </AlternativesForm>
+
       </Widget.Content>
     </Widget>
   );

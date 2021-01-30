@@ -39,7 +39,7 @@ export default function Home() {
             <form onSubmit={function (infosDoEvento) {
               infosDoEvento.preventDefault();
 
-              router.push(`/quiz?name=${name}`);
+              router.push(`/quiz/?name=${name}`);
               console.log('Fazendo uma submissão por meio do react');
             }}
             >
@@ -79,11 +79,9 @@ export default function Home() {
 
                   <li key={linkExterno}>
                     {name.length !== 0 && (
-
                       <Widget.Topic
                         as={Link}
                         href={`/quiz/${projectName}___${githubUser}?name=${name}`}
-
                       >
                         {`${githubUser}/${projectName}`}
                       </Widget.Topic>
@@ -91,13 +89,11 @@ export default function Home() {
 
                     {name.length === 0 && (
 
-                      <Widget.Topic
-                        as={Link}
-                        href="#"
+                      <Widget.Disabled
 
                       >
                         {`${githubUser}/${projectName}`}
-                      </Widget.Topic>
+                      </Widget.Disabled>
                     )}
 
                   </li>

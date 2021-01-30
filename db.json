@@ -180,7 +180,9 @@
    "https://alura-quiz-seasons.rodlemos.vercel.app",
    "https://scrumquiz.robsonamendonca.vercel.app",
    "https://aluraquiz-base.silsantana.vercel.app",
-   "https://miziaraquiz-nltdru7yr.vercel.app"
+   "https://miziaraquiz-nltdru7yr.vercel.app",
+   "https://aluraquiz.josafaverissimo.vercel.app",
+   "https://itachiquiz.castro-gabriel.vercel.app"
   ],
   "theme": {
     "colors": {
@@ -189,7 +191,8 @@
       "mainBg": "#171B35",
       "contrastText": "#FFFFFF",
       "wrong": "#FF5722",
-      "success": "#4CAF50"
+      "success": "#4CAF50",
+      "disabled": "#C6D8D3"
     },
     "borderRadius": "4px"
   }
