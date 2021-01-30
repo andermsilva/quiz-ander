@@ -10,6 +10,8 @@ export default function QuizIndex() {
     <QuizPage
       externalQuestions={db.questions}
       externalBg={db.bg}
-    />
+    >
+      Teste
+    </QuizPage>
   );
 }

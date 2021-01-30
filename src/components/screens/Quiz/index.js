@@ -200,11 +200,7 @@ export default function QuizPage({ externalQuestions, externalBg }) {
       setScreenState(screenStates.RESULT);
     }
   }
-  /*  function handleChange(onChange) {
-    const resp = onChange.target.value;
-    console.log('escolha ', resp);
 
-  } */
   return (
 
     <QuizBackground backgroundImage={bg}>
